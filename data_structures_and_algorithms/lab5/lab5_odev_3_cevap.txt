@@ -1,0 +1,5 @@
+Huffman kodlaması, verilerin sıkıştırılması için sıklık tabanlı bir yaklaşım kullanır. Bu yöntem, verilerin frekanslarına göre bit sıralarını belirler ve en sık kullanılan verilere en kısa bit sıralarını atar. Bu nedenle, Huffman kodlaması, verilerin sıklıkları arasında büyük bir fark varsa ve en sık kullanılan verilerin sayısı sınırlıysa daha iyi sonuçlar verir.
+
+Shannon-Fano kodlaması, verileri sıkıştırmak için frekans tabanlı bir yaklaşım kullanır. Bu yöntem, verilerin frekanslarını, bit sıralarını belirlemek için kullanır ve frekansı yüksek olan verilere kısa bit sıralarını atar. Bu nedenle, verilerin frekansları birbirine yakın olduğunda ve verilerin sayısı çok fazlaysa, Shannon-Fano kodlaması daha iyi sonuçlar verir.
+
+Özet olarak, Huffman kodlaması, sıklık farklarının belirgin olduğu veriler için daha iyi sonuçlar verirken, Shannon-Fano kodlaması, verilerin frekanslarının birbirine yakın olduğu durumlarda daha iyi sonuçlar verir.

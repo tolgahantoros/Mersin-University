@@ -1,0 +1,58 @@
+bölüm öğrencisi
+	string ad
+	string soyad
+	long tcno
+	int yas
+	string adres
+	Ders dersler[]
+
+Ders
+	string ad
+	string kod
+	int kredi
+
+öğrenci ve dersler klavyeden alınır
+öğrenci ve dersler dizi olarak tutulur
+max öğrenci sayısı ve max ders sayısı tutulur (statik)
+
+
+1-Ders Girişi -> 	okuDers()	ekleDers()
+2-Öğrenci Girişi ->	okuOgrenci()	ekleOgrenci
+3-Genel Arama ->	araOgrenci()
+4-Öğrenci Arama ->	araOgrenci(tcno)	araOgrenci(ogrenci_ad, ogrenci_soyad)
+5-Öğrenci Silme ->	silOgrenci(tcno)
+6-Ders Silme ->		silDers(ders_kodu)
+
+
+
+** Hoca'dan **
+
+class Ogrenci{...}
+class Ders{...}
+class Test{
+	Ogrenci[] ogrenciler = new Ogrenci[max_ogrenci];
+	Ders[] dersler = new Ders[max_ders]
+}
+Ogrenci OgrenciOku(){
+	Ogrenci ogr = new Ogrenci();
+	ogr.ad = scan.next;
+	...
+	return ogr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

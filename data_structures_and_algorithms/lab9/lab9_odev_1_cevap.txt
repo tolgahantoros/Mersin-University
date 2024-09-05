@@ -1,0 +1,5 @@
+Splay ağacı, diğer ağaç veri yapılarından farklı olarak, her arama işlemi sonrasında ağacın derinliğini minimize eder. Bu, ağacın belirli bir düzeni olmaksızın, son aranılan elemanın ebeveyn düğümüne kadar olan yolu izleyerek ağacı döndürmesiyle gerçekleştirilir. Bu özellik sayesinde, splay ağacı, sık aranan elemanlara hızlı erişim sağlar.
+
+Splay ağacı, bir BST (Binary Search Tree - ikili arama ağacı) yapısını kullanır. Ancak, splay ağacında elemanlar arama işlemi sırasında ebeveyn düğümüne kadar olan yolu izleyerek ağacın tepesine getirilir. Bu işlem, elemanın daha önce aranılmış olması durumunda bile yapılır. Bu nedenle, splay ağacı, elemanların sık aranıldığı durumlarda diğer BST yapısından daha verimlidir.
+
+Splay ağacı, diğer ağaç veri yapılarından farklı olarak birçok operasyonu (ekleme, silme, arama) sırasında sık sık dönüştürülür. Bu işlemler sırasında ağacın yapısı bozulabilir ve dengesiz hale gelebilir. Ancak, splay ağacının amortize edilmiş çalışma zamanı, O(log n) 'dir. Bu nedenle, splay ağacı, diğer ağaç veri yapılarından daha yavaş olsa da, pratikte hızlı çalışır ve sık kullanılır.
